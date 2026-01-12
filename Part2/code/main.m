@@ -139,7 +139,3 @@ grid on
 title('Pressure');
 xlabel('x (m)');
 ylabel('P (Pa)');
-
-%% plotting distribution function
-FUN_plot_distributions('N2',x,T_post,Tv_post,[0,0.01,0.05,0.1]);
-FUN_plot_distributions('N',x,T_post,Tv_post,[0,0.01,0.05,0.1]);
